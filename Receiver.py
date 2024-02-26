@@ -13,12 +13,17 @@ class Receiver(QtCore.QThread):
 
 
     def run(self):
+        print("Receiver: run method started")
         with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as client:
+            print("Receiver: connecting to server...")
             client.connect((self.host, self.port))
+            print("Receiver: Connected")
             while True:
                 if self.isInterruptionRequested:
                     return
+                print("Receiver: receiving...")
                 data = client.recv(self.buffersize)
+                print("Receiver: sending...")
                 client.sendall(bytes(data))
                 self.dataSent.emit()
                 self.sleep(0.5)

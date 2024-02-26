@@ -36,7 +36,7 @@ class Sender(QtCore.QThread):
                 if self.isInterruptionRequested():
                     print("Sender: interruption requested, breaking loop")
                     return
-                print("Sender: server accepted, receiving data")
+                print("Sender: receiving data")
                 data = client.recv(self.buffersize).decode('utf-8')
                 self.dataReceived.emit(data)
                 if self.ready_to_send:

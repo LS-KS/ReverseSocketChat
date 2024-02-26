@@ -25,6 +25,7 @@ class Controller(QtCore.QObject):
         self.sender.bound.connect(self.start_receiver)
         self.newMessage.connect(self.sender.handle_new_message)
         self.receiver.dataReceived.connect(self.toReceiver)
+        self.receiver.dataSent.connect(self.handle_rcv_datasent)
         print("Controller: initialization finished")
 
     @QtCore.Slot()
@@ -51,3 +52,6 @@ class Controller(QtCore.QObject):
     def sendMessage(self, msg:str):
         print(f"Controller: sendMessage called with: {msg}")
         self.newMessage.emit(msg)
+
+    def handle_rcv_datasent(self):
+        print("receiver sent data")
