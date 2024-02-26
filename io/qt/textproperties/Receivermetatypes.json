@@ -1,0 +1,26 @@
+[
+    {
+        "classes": [
+            {
+                "className": "Receiver",
+                "qualifiedClassName": "Receiver",
+                "object": false,
+                "classInfos": [
+                    {
+                        "name": "QML.Element",
+                        "value": "auto"
+                    }
+                ]
+            }
+        ],
+        "outputRevision": 68,
+        "QML_IMPORT_NAME": "io.qt.textproperties",
+        "QML_IMPORT_MAJOR_VERSION": 1,
+        "QML_IMPORT_MINOR_VERSION": 0,
+        "QT_MODULES": [
+            "QtCore",
+            "QtQml"
+        ],
+        "inputFile": "/Users/lennartschink/Documents/GitHub/SocketReverseChat/Receiver.py"
+    }
+]

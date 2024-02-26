@@ -1,0 +1,9 @@
+{
+    "files": [
+        "Controller.py",
+        "Receiver.py",
+        "Sender.py",
+        "main.py",
+        "main.qml"
+    ]
+}

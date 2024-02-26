@@ -1,0 +1,51 @@
+[
+    {
+        "classes": [
+            {
+                "className": "Sender",
+                "qualifiedClassName": "Sender",
+                "object": false,
+                "classInfos": [
+                    {
+                        "name": "QML.Element",
+                        "value": "auto"
+                    }
+                ],
+                "signals": [
+                    {
+                        "access": "public",
+                        "name": "dataReceived",
+                        "arguments": [
+                            {
+                                "name": "a1",
+                                "type": "QString"
+                            }
+                        ],
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "name": "dataSent",
+                        "arguments": [],
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "name": "bound",
+                        "arguments": [],
+                        "returnType": "void"
+                    }
+                ]
+            }
+        ],
+        "outputRevision": 68,
+        "QML_IMPORT_NAME": "io.qt.textproperties",
+        "QML_IMPORT_MAJOR_VERSION": 1,
+        "QML_IMPORT_MINOR_VERSION": 0,
+        "QT_MODULES": [
+            "QtCore",
+            "QtQml"
+        ],
+        "inputFile": "/Users/lennartschink/Documents/GitHub/SocketReverseChat/Sender.py"
+    }
+]

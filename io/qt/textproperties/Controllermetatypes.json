@@ -1,0 +1,67 @@
+[
+    {
+        "classes": [
+            {
+                "className": "Controller",
+                "qualifiedClassName": "Controller",
+                "object": false,
+                "classInfos": [
+                    {
+                        "name": "QML.Element",
+                        "value": "auto"
+                    }
+                ],
+                "signals": [
+                    {
+                        "access": "public",
+                        "name": "toSender",
+                        "arguments": [
+                            {
+                                "name": "a1",
+                                "type": "QString"
+                            }
+                        ],
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "name": "senderSent",
+                        "arguments": [],
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "name": "toReceiver",
+                        "arguments": [
+                            {
+                                "name": "a1",
+                                "type": "QString"
+                            }
+                        ],
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "name": "newMessage",
+                        "arguments": [
+                            {
+                                "name": "a1",
+                                "type": "QString"
+                            }
+                        ],
+                        "returnType": "void"
+                    }
+                ]
+            }
+        ],
+        "outputRevision": 68,
+        "QML_IMPORT_NAME": "io.qt.textproperties",
+        "QML_IMPORT_MAJOR_VERSION": 1,
+        "QML_IMPORT_MINOR_VERSION": 0,
+        "QT_MODULES": [
+            "QtCore",
+            "QtQml"
+        ],
+        "inputFile": "/Users/lennartschink/Documents/GitHub/SocketReverseChat/Controller.py"
+    }
+]

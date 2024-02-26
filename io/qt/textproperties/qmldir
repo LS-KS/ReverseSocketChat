@@ -1,0 +1,4 @@
+module io.qt.textproperties
+typeinfo Sender.qmltypes
+typeinfo Controller.qmltypes
+typeinfo Receiver.qmltypes
